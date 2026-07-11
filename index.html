@@ -297,7 +297,7 @@
     font-size:11.5px; color:var(--ink-faint);
   }
 
-  /* mobile sticky download bar */
+  /* mobile sticky CV bar */
   .mobile-cta{
     display:none;
     position:fixed; left:0; right:0; bottom:0; z-index:60;
@@ -367,7 +367,7 @@
     .topbar, .mobile-cta, .sys-led, .sys-term{ display:none !important; }
     .topbar-photo{ display:none; }
     .hero{ padding-top:0; }
-    a[download], .footer-cta .btn, .hero-actions a[target="_blank"]{ display:none; }
+    .cv-link{ display:none; }
     .footer-cta{ background:none; border:1px solid var(--line); }
     .reveal{ opacity:1 !important; transform:none !important; }
     section{ padding:26px 0; break-inside:avoid; }
@@ -401,7 +401,7 @@
         <a href="#toolkit">Toolkit</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="btn btn-solid" href="Ido_Efrati_CV.pdf" download>↓ PDF</a>
+      <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV</a>
     </div>
   </div>
 
@@ -412,8 +412,7 @@
       <h1 class="hero-role">Ido Efrati — turning complex enterprise systems into <span class="accent">working solutions.</span></h1>
       <p class="hero-sub">5+ years in global enterprise environments at DHL Express — bridging business needs, technical systems, and AI-driven problem-solving. Practical, not theoretical: learned on the job, sharpened daily with AI tools.</p>
       <div class="hero-actions">
-        <a class="btn btn-solid" href="Ido_Efrati_CV.pdf" download>↓ Download CV (PDF)</a>
-        <a class="btn btn-ghost" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV</a>
+        <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
         <a class="btn btn-ghost" href="mailto:Idoefr@gmail.com">Email me</a>
         <a class="btn btn-ghost" href="tel:0528973128">Call</a>
       </div>
@@ -433,7 +432,7 @@
         </div>
         <div class="strip-item">
           <div class="strip-label">Path</div>
-          <div class="strip-value">IAF → CS → Systems</div>
+          <div class="strip-value">IAF → CX → Systems</div>
         </div>
       </div>
     </section>
@@ -587,16 +586,16 @@
     <div class="footer-cta">
       <div class="footer-cta-text">
         <strong>Want the full picture?</strong>
-        <span>Download the classic PDF résumé — same details, print-ready format.</span>
+        <span>The classic PDF résumé — same details, print-ready format.</span>
       </div>
-      <a class="btn btn-solid" href="Ido_Efrati_CV.pdf" download>↓ Download PDF</a>
+      <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
     </div>
 
     <div class="footer-note">LAST UPDATED — 2026</div>
   </footer>
 
   <div class="mobile-cta">
-    <a class="btn btn-solid" href="Ido_Efrati_CV.pdf" download>↓ Download CV (PDF)</a>
+    <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
   </div>
 
   <div class="sys-term mono" id="sysTerm" hidden>
