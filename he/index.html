@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ido Efrati — People, Process & Systems Leadership</title>
-<meta name="description" content="Ido Efrati - leading people, process, and technical systems at DHL Express. Implementation, training, and customer success — with AI as a daily working tool.">
+<title>עדו אפרתי — הובלת אנשים, תהליכים ומערכות</title>
+<meta name="description" content="עדו אפרתי - מוביל אנשים, תהליכים ומערכות מידע ב-DHL Express. הטמעה, הדרכה והצלחת לקוחות — עם AI ככלי עבודה יומיומי.">
 <meta name="theme-color" content="#10151b">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2310151b'/%3E%3Crect x='11' y='11' width='10' height='10' fill='none' stroke='%23e8a33d' stroke-width='2.5' transform='rotate(45 16 16)'/%3E%3C/svg%3E">
 
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Ido Efrati — People, Process & Systems Leadership">
-<meta property="og:description" content="6+ years at DHL Express leading implementation, training, and customer success — bridging technical systems and the people who use them.">
-<meta property="og:url" content="https://idoefrati.github.io/">
+<meta property="og:title" content="עדו אפרתי — הובלת אנשים, תהליכים ומערכות">
+<meta property="og:description" content="מעל 6 שנים ב-DHL Express בהובלת הטמעה, הדרכה והצלחת לקוחות — גשר בין מערכות טכניות לאנשים שמשתמשים בהן.">
+<meta property="og:url" content="https://idoefrati.github.io/he/">
 <meta property="og:image" content="https://idoefrati.github.io/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Ido Efrati — People, Process & Systems Leadership">
-<meta name="twitter:description" content="6+ years at DHL Express leading implementation, training, and customer success.">
+<meta name="twitter:title" content="עדו אפרתי — הובלת אנשים, תהליכים ומערכות">
+<meta name="twitter:description" content="מעל 6 שנים ב-DHL Express בהובלת הטמעה, הדרכה והצלחת לקוחות.">
 <meta name="twitter:image" content="https://idoefrati.github.io/og-card.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#10151b;
@@ -46,19 +46,18 @@
     margin:0;
     background:var(--bg);
     color:var(--ink);
-    font-family:'IBM Plex Sans', -apple-system, sans-serif;
+    font-family:'IBM Plex Sans Hebrew', 'IBM Plex Sans', -apple-system, sans-serif;
     font-size:16px;
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
   }
   a{color:inherit;}
   .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
-  .mono{font-family:'IBM Plex Mono', monospace;}
+  .mono{font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;}
   .eyebrow{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
     font-size:12px;
-    letter-spacing:.14em;
-    text-transform:uppercase;
+    letter-spacing:.04em;
     color:var(--accent);
     display:flex;
     align-items:center;
@@ -70,6 +69,7 @@
     width:16px; height:1px;
     background:var(--accent);
     display:inline-block;
+    flex-shrink:0;
   }
 
   /* ---------- top bar ---------- */
@@ -85,7 +85,7 @@
   }
   .topbar-brand{ display:flex; align-items:center; gap:11px; }
   .topbar-name{
-    font-family:'Space Grotesk', sans-serif;
+    font-family:'Space Grotesk', 'IBM Plex Sans Hebrew', sans-serif;
     font-weight:700; font-size:16px; letter-spacing:.01em;
   }
   .topbar-photo{
@@ -95,8 +95,8 @@
     filter:url(#duotone);
   }
   .btn{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12.5px; letter-spacing:.04em;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
+    font-size:12.5px; letter-spacing:.02em;
     text-decoration:none;
     padding:9px 16px;
     border-radius:var(--radius);
@@ -111,8 +111,8 @@
 
   .topbar-nav{ display:flex; gap:26px; }
   .topbar-nav a{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px; letter-spacing:.04em;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
+    font-size:12px; letter-spacing:.02em;
     text-decoration:none; color:var(--ink-dim);
     padding-bottom:3px;
     border-bottom:1px solid transparent;
@@ -137,12 +137,11 @@
     pointer-events:none;
   }
   .hero-role{
-    font-family:'Space Grotesk', sans-serif;
+    font-family:'Space Grotesk', 'IBM Plex Sans Hebrew', sans-serif;
     font-weight:700;
-    font-size:clamp(30px, 6vw, 44px);
-    line-height:1.12;
+    font-size:clamp(28px, 6vw, 42px);
+    line-height:1.2;
     margin:0 0 18px;
-    letter-spacing:-.01em;
   }
   .hero-role .accent{ color:var(--accent); }
   .hero-sub{
@@ -165,16 +164,16 @@
   }
   .strip-item{
     padding:14px 16px;
-    border-right:1px solid var(--line);
+    border-left:1px solid var(--line);
   }
-  .strip-item:last-child{ border-right:none; }
+  .strip-item:last-child{ border-left:none; }
   .strip-label{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
+    font-size:10px; letter-spacing:.04em;
     color:var(--ink-faint); margin-bottom:6px;
   }
   .strip-value{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
     font-size:14px; color:var(--ink); font-weight:500;
   }
   .strip-value .dot{ color:var(--accent); }
@@ -184,8 +183,8 @@
   section{ padding:56px 0; border-top:1px solid var(--line); }
   .section-head{ margin-bottom:32px; }
   .section-title{
-    font-family:'Space Grotesk', sans-serif;
-    font-size:22px; font-weight:700; margin:0;
+    font-family:'Space Grotesk', 'IBM Plex Sans Hebrew', sans-serif;
+    font-size:21px; font-weight:700; margin:0;
   }
 
   /* summary */
@@ -196,13 +195,13 @@
   .timeline{ position:relative; }
   .role{
     position:relative;
-    padding:0 0 40px 28px;
-    border-left:1px solid var(--line);
+    padding:0 28px 40px 0;
+    border-right:1px solid var(--line);
   }
   .role:last-child{ padding-bottom:0; }
   .role::before{
     content:"";
-    position:absolute; left:-4.5px; top:4px;
+    position:absolute; right:-4.5px; top:4px;
     width:8px; height:8px;
     background:var(--bg);
     border:1.5px solid var(--accent);
@@ -210,8 +209,8 @@
     transform:rotate(45deg);
   }
   .role-period{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px; color:var(--accent-2); letter-spacing:.04em;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
+    font-size:12px; color:var(--accent-2); letter-spacing:.02em;
     margin-bottom:6px;
     display:flex; align-items:center; gap:7px;
   }
@@ -222,18 +221,18 @@
     background:var(--accent-live); box-shadow:0 0 0 3px var(--accent-live-soft);
   }
   .role-title{
-    font-family:'Space Grotesk', sans-serif;
-    font-size:18px; font-weight:700; margin:0 0 4px;
+    font-family:'Space Grotesk', 'IBM Plex Sans Hebrew', sans-serif;
+    font-size:17px; font-weight:700; margin:0 0 4px;
   }
   .role-org{ color:var(--ink-faint); font-size:13.5px; margin-bottom:12px; }
   .role-stat{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
     font-size:12px; color:var(--accent);
     display:inline-flex; align-items:center; gap:6px;
     margin:0 0 14px;
   }
   .role-stat::before{ content:"◆"; font-size:8px; }
-  .role ul{ margin:0; padding-left:18px; color:var(--ink-dim); font-size:14.5px; }
+  .role ul{ margin:0; padding-right:18px; padding-left:0; color:var(--ink-dim); font-size:14.5px; }
   .role li{ margin-bottom:6px; }
   .role li::marker{ color:var(--accent-2); }
 
@@ -241,13 +240,13 @@
   .skill-group{ margin-bottom:22px; }
   .skill-group:last-child{ margin-bottom:0; }
   .skill-group-label{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
+    font-size:11px; letter-spacing:.02em;
     color:var(--ink-faint); margin-bottom:10px;
   }
   .chips{ display:flex; flex-wrap:wrap; gap:8px; }
   .chip{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
     font-size:12.5px;
     padding:6px 12px;
     border:1px solid var(--line);
@@ -261,13 +260,13 @@
   .grid2{ display:grid; grid-template-columns:1fr; gap:36px; }
   @media(min-width:640px){ .grid2{ grid-template-columns:1fr 1fr; } }
   .subhead{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
+    font-size:11px; letter-spacing:.02em;
     color:var(--ink-faint); margin-bottom:14px;
   }
   .edu-item{ margin-bottom:12px; font-size:14.5px; color:var(--ink-dim); }
   .edu-item strong{ color:var(--ink); font-weight:600; display:block; font-size:14.5px; }
-  .edu-item span{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--ink-faint); }
+  .edu-item span{ font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace; font-size:12px; color:var(--ink-faint); }
 
   /* footer / contact */
   footer{ padding:56px 0 90px; }
@@ -289,11 +288,11 @@
     padding:26px;
     display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;
   }
-  .footer-cta-text strong{ display:block; font-family:'Space Grotesk',sans-serif; font-size:16px; margin-bottom:4px; }
+  .footer-cta-text strong{ display:block; font-family:'Space Grotesk','IBM Plex Sans Hebrew',sans-serif; font-size:16px; margin-bottom:4px; }
   .footer-cta-text span{ color:var(--ink-faint); font-size:13.5px; }
   .footer-note{
     margin-top:40px; text-align:center;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'IBM Plex Mono', 'IBM Plex Sans Hebrew', monospace;
     font-size:11.5px; color:var(--ink-faint);
   }
 
@@ -315,16 +314,16 @@
     body{ padding-bottom:64px; }
     .hero{ padding-top:52px; }
     .strip{ grid-template-columns:repeat(2, 1fr); }
-    .strip-item:nth-child(2){ border-right:none; }
+    .strip-item:nth-child(2){ border-left:none; }
     .strip-item:nth-child(1), .strip-item:nth-child(2){ border-bottom:1px solid var(--line); }
   }
 
   /* status LED + terminal easter egg */
   .sys-led{
-    position:fixed; left:20px; bottom:20px; z-index:55;
+    position:fixed; right:20px; bottom:20px; z-index:55;
     display:inline-flex; align-items:center; gap:8px;
     appearance:none; font:inherit;
-    font-size:11.5px; letter-spacing:.03em; color:var(--ink-faint);
+    font-size:11.5px; letter-spacing:.02em; color:var(--ink-faint);
     background:var(--bg-elev); border:1px solid var(--line);
     padding:7px 12px; border-radius:var(--radius);
     cursor:pointer; user-select:none;
@@ -336,13 +335,13 @@
     background:var(--accent); box-shadow:0 0 0 3px var(--accent-soft);
   }
   .sys-term{
-    position:fixed; left:20px; bottom:60px; z-index:55;
+    position:fixed; right:20px; bottom:60px; z-index:55;
     font-size:12.5px; line-height:1.7;
     background:var(--bg-elev-2); border:1px solid var(--line);
     padding:12px 14px; border-radius:var(--radius);
     min-width:230px;
   }
-  .sys-term .cmd{ color:var(--accent-2); }
+  .sys-term .cmd{ color:var(--accent-2); direction:ltr; text-align:right; }
   .sys-term .out{ color:var(--ink); }
   @media(max-width:640px){ .sys-led, .sys-term{ display:none; } }
 
@@ -392,111 +391,111 @@
   <div class="topbar">
     <div class="topbar-inner">
       <div class="topbar-brand">
-        <img class="topbar-photo" src="ido-photo.jpg" alt="Ido Efrati" width="34" height="34">
-        <div class="topbar-name mono">IDO EFRATI</div>
+        <img class="topbar-photo" src="../ido-photo.jpg" alt="עדו אפרתי" width="34" height="34">
+        <div class="topbar-name mono">עדו אפרתי</div>
       </div>
       <nav class="topbar-nav mono">
-        <a href="#summary">Summary</a>
-        <a href="#experience">Experience</a>
-        <a href="#toolkit">Toolkit</a>
-        <a href="#contact">Contact</a>
+        <a href="#summary">תקציר</a>
+        <a href="#experience">ניסיון</a>
+        <a href="#toolkit">כלים</a>
+        <a href="#contact">יצירת קשר</a>
       </nav>
-      <a class="btn btn-ghost lang-switch" href="he/">עברית</a>
-      <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV</a>
+      <a class="btn btn-ghost lang-switch" href="../">EN</a>
+      <a class="btn btn-solid cv-link" href="../Ido_Efrati_CV_HE.pdf" target="_blank" rel="noopener">צפה בקו״ח</a>
     </div>
   </div>
 
   <div class="wrap">
 
     <section class="hero" style="border-top:none; padding-bottom:0;">
-      <div class="eyebrow">People, Process &amp; Technical Systems</div>
-      <h1 class="hero-role">Ido Efrati — turning complex systems into <span class="accent">people who succeed.</span></h1>
-      <p class="hero-sub">6+ years at DHL Express leading implementation, training, and customer success — bridging enterprise systems and the people who have to work with them. Practical, not theoretical: learned on the job, sharpened daily with AI tools.</p>
+      <div class="eyebrow">אנשים, תהליכים ומערכות מידע</div>
+      <h1 class="hero-role">עדו אפרתי — הופך מערכות מורכבות ל<span class="accent">אנשים שמצליחים.</span></h1>
+      <p class="hero-sub">מעל 6 שנים ב-DHL Express בהובלת הטמעה, הדרכה והצלחת לקוחות — גשר בין מערכות ארגוניות לבין האנשים שצריכים לעבוד איתן בפועל. מעשי ולא תיאורטי: נלמד תוך כדי עבודה, ומתחדד כל יום עם כלי AI.</p>
       <div class="hero-actions">
-        <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
-        <a class="btn btn-ghost" href="mailto:Idoefr@gmail.com">Email me</a>
-        <a class="btn btn-ghost" href="tel:0528973128">Call</a>
+        <a class="btn btn-solid cv-link" href="../Ido_Efrati_CV_HE.pdf" target="_blank" rel="noopener">צפה בקו״ח (PDF)</a>
+        <a class="btn btn-ghost" href="mailto:Idoefr@gmail.com">שלח מייל</a>
+        <a class="btn btn-ghost" href="tel:0528973128">התקשר</a>
       </div>
 
       <div class="strip reveal">
         <div class="strip-item">
-          <div class="strip-label">Experience</div>
-          <div class="strip-value">6+ <span class="dot">·</span> yrs enterprise</div>
+          <div class="strip-label">ניסיון</div>
+          <div class="strip-value">+6 <span class="dot">·</span> שנים בארגונים</div>
         </div>
         <div class="strip-item">
-          <div class="strip-label">Base</div>
-          <div class="strip-value">Tel Aviv, IL <span class="live" id="liveClock"></span></div>
+          <div class="strip-label">בסיס</div>
+          <div class="strip-value">תל אביב <span class="live" id="liveClock"></span></div>
         </div>
         <div class="strip-item">
-          <div class="strip-label">Languages</div>
-          <div class="strip-value">HE <span class="dot">·</span> EN</div>
+          <div class="strip-label">שפות</div>
+          <div class="strip-value">עברית <span class="dot">·</span> אנגלית</div>
         </div>
         <div class="strip-item">
-          <div class="strip-label">Path</div>
-          <div class="strip-value">IAF → CX → Impact</div>
+          <div class="strip-label">מסלול</div>
+          <div class="strip-value">חה״א ← CX ← השפעה</div>
         </div>
       </div>
     </section>
 
     <section id="summary" class="summary reveal">
       <div class="section-head">
-        <div class="eyebrow">Summary</div>
-        <h2 class="section-title">What I actually do</h2>
+        <div class="eyebrow">תקציר</div>
+        <h2 class="section-title">מה אני בעצם עושה</h2>
       </div>
-      <p><strong>I lead the human side of technical change</strong> — training, process, and direct support that make projects land with the people who have to live with them. Grew from hands-on technical systems work (data analysis, integrations, Tier 2 support) into leading implementation, facilitation, and customer success for international stakeholders and enterprise clients. Daily, practical user of AI tools (Gemini, Copilot) — for problem-solving and getting work done, not as a headline.</p>
+      <p><strong>אני מוביל את הצד האנושי של שינוי טכני</strong> — הדרכה, תהליך ותמיכה ישירה שגורמים לפרויקטים להצליח אצל האנשים שצריכים לחיות איתם. התחלתי בעבודה טכנית-מערכתית (ניתוח נתונים, אינטגרציות, תמיכה מדרג 2), וצמחתי להוביל הטמעה, הנחיה והצלחת לקוחות מול מחזיקי עניין בינלאומיים ולקוחות ארגוניים. משתמש יומיומי ומעשי בכלי AI (Gemini, Copilot) — לפתרון בעיות ולביצוע העבודה, לא ככותרת.</p>
     </section>
 
     <section id="experience" class="reveal">
       <div class="section-head">
-        <div class="eyebrow">Experience</div>
-        <h2 class="section-title">DHL Express — 2020 to present</h2>
+        <div class="eyebrow">ניסיון</div>
+        <h2 class="section-title">DHL Express — 2020 עד היום</h2>
       </div>
       <div class="timeline">
 
         <div class="role is-current">
-          <div class="role-period"><span class="live-dot"></span>2025 — Present</div>
-          <h3 class="role-title">Implementation Specialist &amp; System Analyst</h3>
-          <div class="role-org">Core operational systems · bridge between R&amp;D, operations &amp; enterprise clients</div>
-          <div class="role-stat">Systems reaching 30–150 users per rollout</div>
+          <div class="role-period"><span class="live-dot"></span>2025 — היום</div>
+          <h3 class="role-title">מומחה הטמעה ואנליסט מערכות</h3>
+          <div class="role-org">מערכות תפעול מרכזיות · גשר בין פיתוח, תפעול ולקוחות ארגוניים</div>
+          <div class="role-stat">מערכות שמגיעות ל-30–150 משתמשים בכל הטמעה</div>
           <ul>
-            <li>Business partnering — translating operational needs into technical solutions</li>
-            <li>Local integration of global service platforms; leads the technical transition to next-generation global systems</li>
-            <li>Enterprise technical support and training for internal stakeholders and external clients, ensuring business continuity</li>
-            <li>Root-cause analysis and Oracle SQL for data verification across interfaces</li>
-            <li>Evaluated an AI-driven customer service pilot (voice agent) within a regulated enterprise environment</li>
+            <li>שיתוף פעולה עסקי — תרגום צרכים תפעוליים לפתרונות טכניים</li>
+            <li>הובלת ההטמעה המקומית של פלטפורמות שירות גלובליות וניהול המעבר למערכות דור הבא</li>
+            <li>הדרכה ותמיכה למשתמשים פנים־ארגוניים וללקוחות ארגוניים חיצוניים, תוך הבטחת רציפות תפעולית</li>
+            <li>ניתוח בעיות שורש ו-Oracle SQL לאימות נתונים בממשקים</li>
+            <li>העריך פיילוט שירות לקוחות מבוסס AI (סוכן קולי) בסביבה ארגונית מפוקחת</li>
           </ul>
         </div>
 
         <div class="role">
           <div class="role-period">2022 — 2025</div>
-          <h3 class="role-title">Digital Transformation Specialist &amp; Project Manager</h3>
-          <div class="role-org">Information Systems · Customer Service group</div>
-          <div class="role-stat">Trained &amp; PM'd rollouts reaching 30–150 users each</div>
+          <h3 class="role-title">מומחה טרנספורמציה דיגיטלית ומנהל פרויקטים</h3>
+          <div class="role-org">מערכות מידע · קבוצת שירות לקוחות</div>
+          <div class="role-stat">הדריך וניהל הטמעות שהגיעו ל-30–150 משתמשים כל אחת</div>
           <ul>
-            <li>Led <strong>SPARK</strong>, DHL's global customer service system rollout, end-to-end — including presenting outcomes to company leadership</li>
-            <li>Built and delivered technical training programs for managers &amp; end-users</li>
-            <li>Managed daily communication with international teams; adapted global specs for the Israeli market</li>
-            <li>Drove adoption of AI-based tools; optimized customer-facing chatbots</li>
-            <li>Focal point for complex technical issues on enterprise platforms</li>
+            <li>הוביל את <strong>SPARK</strong>, פרויקט הטמעת מערכת שירות הלקוחות הגלובלית של DHL, מקצה לקצה — כולל הצגת התוצאות בפני הנהלת החברה</li>
+            <li>פיתוח והעברת תוכניות הדרכה טכניות, הנחיית מנהלים ומשתמשי קצה</li>
+            <li>ניהול תקשורת יומיומית מול צוותים בינלאומיים; התאמת מפרטים גלובליים לשוק הישראלי</li>
+            <li>הובלת אימוץ כלים מבוססי AI; אופטימיזציה של צ'אטבוטים פונים ללקוח</li>
+            <li>גורם מרכזי לטיפול בסוגיות טכניות מורכבות בפלטפורמות ארגוניות</li>
           </ul>
         </div>
 
         <div class="role">
           <div class="role-period">2021 — 2022</div>
-          <h3 class="role-title">Shift Manager, Customer Service Center</h3>
-          <div class="role-org">Multi-site team leadership</div>
+          <h3 class="role-title">מנהל משמרת, מוקד שירות לקוחות</h3>
+          <div class="role-org">ניהול צוות רב־אתרי</div>
           <ul>
-            <li>Consistently exceeded global &amp; local service KPIs under pressure</li>
-            <li>Built onboarding/training programs for software updates</li>
+            <li>עמידה עקבית ביעדי שירות גלובליים ומקומיים בסביבה עתירת לחץ</li>
+            <li>פיתוח תוכניות הדרכה בנושא עדכוני תוכנה</li>
           </ul>
         </div>
 
         <div class="role">
           <div class="role-period">2020</div>
-          <h3 class="role-title">Customer Service Representative</h3>
-          <div class="role-org">International client support</div>
+          <h3 class="role-title">נציג שירות לקוחות</h3>
+          <div class="role-org">תמיכה בלקוחות בינלאומיים</div>
           <ul>
-            <li>High-level service &amp; technical guidance to enterprise clients</li>
+            <li>מתן שירות והנחיה טכנית ברמה גבוהה ללקוחות ארגוניים</li>
           </ul>
         </div>
 
@@ -505,22 +504,22 @@
 
     <section id="toolkit" class="reveal">
       <div class="section-head">
-        <div class="eyebrow">Toolkit</div>
-        <h2 class="section-title">Skills &amp; systems</h2>
+        <div class="eyebrow">כלים</div>
+        <h2 class="section-title">כישורים ומערכות</h2>
       </div>
 
       <div class="skill-group">
-        <div class="skill-group-label">Leading people &amp; process</div>
+        <div class="skill-group-label">הובלת אנשים ותהליכים</div>
         <div class="chips">
-          <span class="chip">Training &amp; Facilitation</span>
-          <span class="chip">Cross-Functional Project Leadership</span>
-          <span class="chip">Change Management</span>
-          <span class="chip">Customer Success</span>
+          <span class="chip">הדרכה והנחיה</span>
+          <span class="chip">ניהול פרויקטים חוצה-ארגון</span>
+          <span class="chip">ניהול שינוי</span>
+          <span class="chip">הצלחת לקוחות</span>
         </div>
       </div>
 
       <div class="skill-group">
-        <div class="skill-group-label">AI tools — daily use</div>
+        <div class="skill-group-label">כלי AI — שימוש יומיומי</div>
         <div class="chips">
           <span class="chip ai">Gemini</span>
           <span class="chip ai">Microsoft Copilot</span>
@@ -531,16 +530,16 @@
       </div>
 
       <div class="skill-group">
-        <div class="skill-group-label">Technical systems</div>
+        <div class="skill-group-label">מערכות טכניות</div>
         <div class="chips">
           <span class="chip">ServiceNow</span>
           <span class="chip">Oracle SQL</span>
           <span class="chip">Microsoft Power Apps</span>
           <span class="chip">Verint</span>
           <span class="chip">Avaya</span>
-          <span class="chip">Root Cause Analysis</span>
+          <span class="chip">ניתוח בעיות שורש</span>
           <span class="chip">QA</span>
-          <span class="chip">Tier 2 Support</span>
+          <span class="chip">תמיכה מדרג 2</span>
         </div>
       </div>
     </section>
@@ -548,17 +547,17 @@
     <section class="reveal">
       <div class="grid2">
         <div>
-          <div class="subhead">Education &amp; Certifications</div>
-          <div class="edu-item"><strong>Project Management</strong><span>Product Experts, 2025 — incl. co-facilitated GenAI workshop</span></div>
-          <div class="edu-item"><strong>Certified International Manager</strong><span>DHL, 2025</span></div>
+          <div class="subhead">השכלה והכשרות</div>
+          <div class="edu-item"><strong>ניהול פרויקטים</strong><span>Product Experts, 2025 — כולל הנחיה משותפת של סדנת GenAI</span></div>
+          <div class="edu-item"><strong>מנהל בינלאומי מוסמך</strong><span>DHL, 2025</span></div>
           <div class="edu-item"><strong>Train the Facilitator</strong><span>CS Academy, DHL Belgium, 2024</span></div>
-          <div class="edu-item"><strong>Continuous Improvement</strong><span>DHL, 2024</span></div>
-          <div class="edu-item"><strong>ISTQB Certified QA</strong><span>Graduated with Honors, 2023</span></div>
+          <div class="edu-item"><strong>קורס שיפור מתמיד</strong><span>DHL, 2024</span></div>
+          <div class="edu-item"><strong>בדיקות תוכנה מוסמך ISTQB</strong><span>בהצטיינות, 2023</span></div>
         </div>
         <div>
-          <div class="subhead">Military Service</div>
-          <div class="edu-item"><strong>Aircraft Mechanic, Team Lead</strong><span>Israeli Air Force, 2017 – 2019</span></div>
-          <div class="edu-item" style="margin-top:14px; color:var(--ink-dim);">Led a technical team resolving complex faults under time pressure, using technical English. Recipient of the Base Excellence Award.</div>
+          <div class="subhead">שירות צבאי</div>
+          <div class="edu-item"><strong>ראש צוות מכונאי טיס</strong><span>חיל האוויר, 2017 – 2019</span></div>
+          <div class="edu-item" style="margin-top:14px; color:var(--ink-dim);">הוביל צוות טכני בפתרון תקלות מורכבות תחת לחץ זמן, תוך שימוש באנגלית טכנית. מקבל אות מצוינות בסיסית.</div>
         </div>
       </div>
     </section>
@@ -567,8 +566,8 @@
 
   <footer id="contact" class="wrap reveal">
     <div class="section-head">
-      <div class="eyebrow">Get in touch</div>
-      <h2 class="section-title">Let's talk</h2>
+      <div class="eyebrow">יצירת קשר</div>
+      <h2 class="section-title">בואו נדבר</h2>
     </div>
     <div class="contact-row">
       <a class="contact-item" href="mailto:Idoefr@gmail.com">
@@ -585,31 +584,31 @@
       </a>
       <span class="contact-item">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-        Tel Aviv, Israel
+        תל אביב, ישראל
       </span>
     </div>
 
     <div class="footer-cta">
       <div class="footer-cta-text">
-        <strong>Want the full picture?</strong>
-        <span>The classic PDF résumé — same details, print-ready format.</span>
+        <strong>רוצה את התמונה המלאה?</strong>
+        <span>קו״ח ה-PDF הקלאסי — אותם פרטים, בפורמט מוכן להדפסה.</span>
       </div>
-      <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+      <a class="btn btn-solid cv-link" href="../Ido_Efrati_CV_HE.pdf" target="_blank" rel="noopener">צפה בקו״ח (PDF)</a>
     </div>
 
-    <div class="footer-note">LAST UPDATED — 2026</div>
+    <div class="footer-note">עודכן לאחרונה — 2026</div>
   </footer>
 
   <div class="mobile-cta">
-    <a class="btn btn-solid cv-link" href="Ido_Efrati_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+    <a class="btn btn-solid cv-link" href="../Ido_Efrati_CV_HE.pdf" target="_blank" rel="noopener">צפה בקו״ח (PDF)</a>
   </div>
 
   <div class="sys-term mono" id="sysTerm" hidden>
     <div class="cmd">&gt; whoami</div>
-    <div class="out">Ido Efrati — People, Process &amp; Systems</div>
+    <div class="out">עדו אפרתי — אנשים, תהליכים ומערכות</div>
   </div>
   <button type="button" class="sys-led mono" id="sysLed" aria-expanded="false" aria-controls="sysTerm">
-    <span class="sys-led-dot"></span> status: online
+    <span class="sys-led-dot"></span> סטטוס: פעיל
   </button>
 
 <script>
